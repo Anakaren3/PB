@@ -1,0 +1,29 @@
+package suma;
+import java.util.*;
+
+public class Suma {
+
+    public static void main(String[] args) {
+        
+        int a = 0 , b = 0;
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Ingresa el primer número: ");
+        a = sc.nextInt();
+        
+        System.out.println("Ingresa el segundo número: ");
+        b = sc.nextInt();
+        
+        if(a <= 100 &&  b <= 100){
+         
+           System.out.println("La suma de tus dos números es: " + (a + b));
+        
+        } else{
+           System.out.println("Uno de los números no es un entero menor o igual a 100");
+        }
+    
+        
+    }
+    
+}
